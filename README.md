@@ -44,7 +44,8 @@ g++ -std=c++11 main.cpp -o app
 ```
 Posteriormente, ejecuta tu programa. Para realizar las pruebas, puedes usar las siguientes líneas de código.
 ```
-./app > mysolution.txt
+./app > mysolutionX.txt
+diff mysolutionX.txt outputX.txt
 ```
 
 ## <span style="color: rgb(26, 99, 169);">**¿Bajo qué criterios se evalúa mi evidencia?**</span>
